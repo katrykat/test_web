@@ -1,4 +1,12 @@
-
+$(document).ready(function() {
+	$.ajax({
+        url: "categories.json",
+        dataType: "json",
+        success: function(data) {
+        	processData(data);      	
+        }
+     });    
+});
 
 //      Lighting  
 function processData(data) {
