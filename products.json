@@ -2,26 +2,62 @@
 [
 	{
 		"title":"Lighting",
-		"img":"img/1.gif/100x100"
+		"img":"img/1.png/300x300"
+		"price":""
 	},
 	{
-		"title":"Eletricity",
-		"img":"img/2.gif/100x100"
+		"title":"Lighting",
+		"img":"img/2.png/300x300"
+		"price":""
 	},
 	{
-		"title":"Electronics",
-		"img":"img/3.gif/100x100"
+		"title":"Lighting",
+		"img":"img/3.png/300x300"
+		"price":""
 	},
 	{
-		"title":"Connectors",
-		"img":"img/4.gif/100x100"
+		"title":"Lighting",
+		"img":"img/4.png/300x300"
+		"price":""
 	},
 	{
-		"title":"Gardens",
-		"img":"img/5.gif/100x100"
+		"title":"Lighting",
+		"img":"img/5.png/300x300"
+		"price":""
 	},
 	{
-		"title":"Various",
-		"img":"img/6.gif/100x100"
+		"title":"Lighting",
+		"img":"img/6.png/300x300"
+		"price":""
+	},
+	{
+		"title":"Lighting",
+		"img":"img/7.png/300x300"
+		"price":""
+	},
+	{
+		"title":"Lighting",
+		"img":"img/8.png/300x300"
+		"price":""
+	},
+	{
+		"title":"Lighting",
+		"img":"img/9.png/300x300"
+		"price":""
+	},
+	{
+		"title":"Lighting",
+		"img":"img/10.png/300x300"
+		"price":""
+	},
+	{
+		"title":"Lighting",
+		"img":"img/11.png/300x300"
+		"price":""
+	},
+	{
+		"title":"Lighting",
+		"img":"img/12.png/300x300"
+		"price":""
 	}
 ]
