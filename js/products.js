@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$.ajax({
-        url: "categories.json",
+        url: "products.json",
         dataType: "json",
         success: function(data) {
         	processData(data);      	
@@ -9,7 +9,7 @@ $(document).ready(function() {
 });
 
 //      Lighting  
-function processData(data) {
+function processData(lighting) {
 	for (var i = 0; i < data.length; i++) {
 	// Adding all the divs, images, titles, etc
         $("#products").append('<div id="div'+i+'"><h2 id="title'+i+'"></h2><img id="img'+i+'"/></div>');
@@ -21,7 +21,7 @@ function processData(data) {
         $("#img"+i).attr("alt",data[i].title+" Section");
 	}
 }       
-function processData(data) {
+function processData(lighting) {
 	for (var i = 1; i < data.length; i++) {
         $("#products").append('<div id="div'+i+'"><h2 id="title'+i+'"></h2><img id="img'+i+'"/></div>');
         $("#title"+i).append(data[i].title);
@@ -30,15 +30,15 @@ function processData(data) {
         }
 }
 //      Electricity   
-function processData(data) {
-	for (var i = 2; i < data.length; i++) {
+function processData(electricity) {
+	for (var i = 0; i < data.length; i++) {
         $("#products").append('<div id="div'+i+'"><h2 id="title'+i+'"></h2><img id="img'+i+'"/></div>');
         $("#title"+i).append(data[i].title);
         $("#img"+i).attr("src",data[i].img);
         $("#img"+i).attr("alt",data[i].title+" Section");
         
-function processData(data) {
-	for (var i = 3; i < data.length; i++) {
+function processData(electricity) {
+	for (var i = 1; i < data.length; i++) {
         $("#products").append('<div id="div'+i+'"><h2 id="title'+i+'"></h2><img id="img'+i+'"/></div>');
         $("#title"+i).append(data[i].title);
         $("#img"+i).attr("src",data[i].img);
@@ -46,16 +46,16 @@ function processData(data) {
 	}
 }       
 //      Electronics  
-function processData(data) {
-	for (var i = 4; i < data.length; i++) {
+function processData(electronics) {
+	for (var i = 0; i < data.length; i++) {
         $("#products").append('<div id="div'+i+'"><h2 id="title'+i+'"></h2><img id="img'+i+'"/></div>');
         $("#title"+i).append(data[i].title);
         $("#img"+i).attr("src",data[i].img);
         $("#img"+i).attr("alt",data[i].title+" Section");
 	}
 }        
-function processData(data) {
-	for (var i = 5; i < data.length; i++) {
+function processData(electronics) {
+	for (var i = 1; i < data.length; i++) {
         $("#products").append('<div id="div'+i+'"><h2 id="title'+i+'"></h2><img id="img'+i+'"/></div>');
         $("#title"+i).append(data[i].title);
         $("#img"+i).attr("src",data[i].img);
@@ -63,16 +63,16 @@ function processData(data) {
 	}
 }        
 //      Connectors          
-function processData(data) {
-	for (var i = 6; i < data.length; i++) {
+function processData(connectors) {
+	for (var i = 0; i < data.length; i++) {
         $("#products").append('<div id="div'+i+'"><h2 id="title'+i+'"></h2><img id="img'+i+'"/></div>');
         $("#title"+i).append(data[i].title);
         $("#img"+i).attr("src",data[i].img);
         $("#img"+i).attr("alt",data[i].title+" Section");
 	}
 }        
-function processData(data) {
-	for (var i = 7; i < data.length; i++) {
+function processData(connectors) {
+	for (var i = 1; i < data.length; i++) {
         $("#products").append('<div id="div'+i+'"><h2 id="title'+i+'"></h2><img id="img'+i+'"/></div>');
         $("#title"+i).append(data[i].title);
         $("#img"+i).attr("src",data[i].img);
@@ -80,16 +80,16 @@ function processData(data) {
 	}
 }        
 //      Gardens          
-function processData(data) {
-	for (var i = 8; i < data.length; i++) {
+function processData(gardens) {
+	for (var i = 0; i < data.length; i++) {
         $("#products").append('<div id="div'+i+'"><h2 id="title'+i+'"></h2><img id="img'+i+'"/></div>');
         $("#title"+i).append(data[i].title);
         $("#img"+i).attr("src",data[i].img);
         $("#img"+i).attr("alt",data[i].title+" Section");
 	}
 }        
-function processData(data) {
-	for (var i = 9; i < data.length; i++) {
+function processData(gardens) {
+	for (var i = 1; i < data.length; i++) {
         $("#products").append('<div id="div'+i+'"><h2 id="title'+i+'"></h2><img id="img'+i+'"/></div>');
         $("#title"+i).append(data[i].title);
         $("#img"+i).attr("src",data[i].img);
@@ -97,7 +97,7 @@ function processData(data) {
 	}
 }        
 //      Various          
-function processData(data) {
+function processData(various) {
 	for (var i = 10; i < data.length; i++) {
         $("#products").append('<div id="div'+i+'"><h2 id="title'+i+'"></h2><img id="img'+i+'"/></div>');
         $("#title"+i).append(data[i].title);
@@ -105,7 +105,7 @@ function processData(data) {
         $("#img"+i).attr("alt",data[i].title+" Section");
 	}
 }        
-function processData(data) {
+function processData(various) {
 	for (var i = 11; i < data.length; i++) {
         $("#products").append('<div id="div'+i+'"><h2 id="title'+i+'"></h2><img id="img'+i+'"/></div>');
         $("#title"+i).append(data[i].title);
