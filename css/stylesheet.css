@@ -3,7 +3,7 @@ html {
 }
 
 body{
-	position:absolute;
+  position:absolute;
   width: 91%;
   left: 4%;
   }
@@ -50,15 +50,6 @@ body{
     /*..........................shoppin car.....................*/ 
     /* Shopping Cart Styles -
 
-main {
-  padding: 100px 0;
-  width: 700px;
-  margin: 0 auto;
-}
-
-header {
-  height: 100px;
-}
 
 h1 {
   float: left;
