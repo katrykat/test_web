@@ -98,7 +98,7 @@ function processData(gardens) {
 }        
 //      Various          
 function processData(various) {
-	for (var i = 10; i < data.length; i++) {
+	for (var i = 0; i < data.length; i++) {
         $("#products").append('<div id="div'+i+'"><h2 id="title'+i+'"></h2><img id="img'+i+'"/></div>');
         $("#title"+i).append(data[i].title);
         $("#img"+i).attr("src",data[i].img);
@@ -106,7 +106,7 @@ function processData(various) {
 	}
 }        
 function processData(various) {
-	for (var i = 11; i < data.length; i++) {
+	for (var i = 1; i < data.length; i++) {
         $("#products").append('<div id="div'+i+'"><h2 id="title'+i+'"></h2><img id="img'+i+'"/></div>');
         $("#title"+i).append(data[i].title);
         $("#img"+i).attr("src",data[i].img);
