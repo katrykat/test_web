@@ -1,26 +1,26 @@
 [
 	{
-		"title":"Electricity",
+		"title":"Lighting",
 		"img":"img/1.gif/100x100"
 	},
 	{
-		"title":"Garden",
+		"title":"Eletricity",
 		"img":"img/2.gif/100x100"
 	},
 	{
-		"title":"Lightning",
+		"title":"Electronics",
 		"img":"img/3.gif/100x100"
 	},
 	{
-		"title":"Lightning",
+		"title":"Connectors",
 		"img":"img/4.gif/100x100"
 	},
 	{
-		"title":"Lightning",
+		"title":"Gardens",
 		"img":"img/5.gif/100x100"
 	},
 	{
-		"title":"Electronics",
+		"title":"Various",
 		"img":"img/6.gif/100x100"
 	}
 ]
